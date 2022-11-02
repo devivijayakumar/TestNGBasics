@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [demosuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="regression(failed)">
+    <classes>
+      <class name="assignments.DataProviderAssignment">
+        <methods>
+          <include name="testcase" invocation-numbers="3"/>
+          <include name="intialiseBrowser"/>
+        </methods>
+      </class> <!-- assignments.DataProviderAssignment -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [demosuite] -->

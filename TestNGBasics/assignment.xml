@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="assignmentsuite" thread-count="2" parallel="tests" >
+<test name="regression">
+<classes>
+<class name="assignments.SoftAssertAssignment1">
+<methods>
+<include name="verify_checkbox_text"></include>
+<include name="verify_checkbox_selected"></include>
+</methods>
+</class>
+</classes>
+</test>
+
+</suite>
